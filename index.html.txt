@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interactivo - Parroquias de Maracaibo</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Maracaibo: Sistema de Parroquias</h1>
+        <p>Visualización geoespacial de infraestructura y territorio</p>
+    </header>
+
+    <main>
+        <div id="map"></div>
+        <div id="info-panel">
+            <h2>Detalles de la Parroquia</h2>
+            <p id="parroquia-nombre">Selecciona una parroquia en el mapa para ver su información.</p>
+        </div>
+    </main>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

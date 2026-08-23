@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-71.65, 10.68],
+            [-71.60, 10.68],
+            [-71.60, 10.72],
+            [-71.65, 10.72],
+            [-71.65, 10.68]
+          ]
+        ]
+      },
+      "properties": {
+        "nombre": "Coquivacoa (Prueba)"
+      }
+    }
+  ]
+}
